@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "work meister s1 3-piece",
+        "price": 779.98,
+        "image": { "fields": { "file": { "url": "./img/work-meister_s1_3piece-bronze.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "rays volk racing te37",
+        "price": 732.45,
+        "image": { "fields": { "file": { "url": "./img/rays-volk_racing_te37-black.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "weds sport sa-25r",
+        "price": 378.82,
+        "image": { "fields": { "file": { "url": "./img/weds_sport-sa_25r-silver_black.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "rays gram lights 57xtreme",
+        "price": 479.75,
+        "image": { "fields": { "file": { "url": "./img/rays-gram_lights_57xtreme-winning_blue.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "leon hardiritt progress line reise",
+        "price": 759,
+        "image": { "fields": { "file": { "url": "./img/leon_hardiritt-progress_line_reise-titan_gradation.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "rays homura 2x7",
+        "price": 557.65,
+        "image": { "fields": { "file": { "url": "./img/rays-homura_2x7-matt_black.jpg" } } }
+      }
+    }
+  ]
+}

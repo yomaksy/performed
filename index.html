@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performed</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="navbar-icon">
+                <a href="https://yomaksy.github.io/btp-wheels/" target="_blank">
+                    <i class="fas fa-home"></i>
+                </a>
+            </span>
+            <div class="navbar-logo">Performed.</div>
+            <div class="cart-button">
+                <span class="navbar-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+    <!-- Hero Banner -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">
+                <span>In stance</span>
+                <span>we trust.</span>
+            </h1>
+            <h2 class="btp-wheels">born to perform wheels</h2>
+            <button class="banner-button" onclick="scrollDown()">Showroom</button>
+        </div>
+    </header>
+    <!-- End of Hero Banner -->
+    <!-- Products -->
+    <section class="products">
+        <div class="section-title">
+            <h2>
+                <span>Show</span>
+                <span>room.</span>
+            </h2>
+        </div>
+        <div class="products-center">
+            <!-- Single Product added to app.js -->
+        </div>
+    </section>
+    <!-- End of Products -->
+    <!-- Cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="far fa-times"></i>
+            </span>
+            <h2>
+                <span>Your</span>
+                <span>cart.</span>
+            </h2>
+            <div class="cart-content">
+                <!-- Cart Item added to app.js -->
+            </div>
+            <div class="cart-footer">
+                <h3>
+                    <span>your total: </span>
+                    $<span class="cart-total">0</span>
+                </h3>
+                <button class="clear-cart banner-button">clear cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- End of Cart -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
