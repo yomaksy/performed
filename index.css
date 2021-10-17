@@ -251,7 +251,7 @@ html {
   right: 0;
   width: 100%;
   height: 100%;
-  /* overflow: scroll; */
+  overflow: scroll;
   z-index: 3;
   background: var(--color-grey);
   padding: 1.5rem;
